@@ -9,9 +9,10 @@ Instructions for use
 4. Select this script
 5. The script will run. It will fill the artboard with patterns and mask them with your selected path.
 
-If you used a compound path in step 2, you will need to do step 6, because Illustrator wont making compound paths
-into clipping masks when using a script. But you can automate it using AppleScript:
-6. Open AppleScript editor (should be in Applications or Applications/Utilities) and run the accompanying script. For this step I'm assuming you're on a Mac.
+If you used a compound path in step 2, you will need to do step 6, because Illustrator won't make
+compound paths into clipping masks when using a script. But you can automate it using AppleScript.
+6. Open AppleScript editor (should be in Applications or Applications/Utilities) and run the 
+accompanying script 'make_clipping_masks_applescript.scpt'. For this step I'm assuming you're on a Mac.
  
 
 
@@ -24,7 +25,9 @@ The basic approach is:
 2. ...draw a grid of vertical and horizontal paths
 3. Rotate or move either the vertical or horizontal lines or both
 
-That's it. The paths can be varied in number, weight and colour by playing around with the configuration options at the start of the script. There's no right or wrong setting, you just need to try a few settings until you get something you like.
+That's it. The paths can be varied in number, weight and colour by playing around with the configuration 
+options at the start of the script. There's no right or wrong setting, you just need to try a few settings 
+until you get something you like.
 
 */
 
