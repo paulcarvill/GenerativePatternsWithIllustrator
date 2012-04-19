@@ -5,7 +5,9 @@ I recently needed to create some patterns to use in a series of logos. We wanted
 
 The whole Adobe Creative Suite has the ability to be scripted, using either JavaScript, AppleScript or VBScript. The applications use an object model which should be easy to pick up for anyone familiar with web browsers' Document Object Model, and there is extensive documentation available on Adobe's website. So, writing JavaScript gives you extensive access to Illustrator's features, and it's quite quick too. There are some incomprehensible shortcomings, some of which I detail in the code's comments, but as a first experiment at trying this I think it went quite well.
 
-You'll see from the code that I was learning as I went, hence the proliferation of CONATANTS I created every time I came up with a new setting which needed to be configured.
+Example output here: http://paulcarvill.github.com/GenerativePatternsWithIllustrator/
+
+You'll see from the code that I was learning as I went, hence the proliferation of CONSTANTS I created every time I came up with a new setting which needed to be configured.
 
 Have a play and let me know what you think.
 
